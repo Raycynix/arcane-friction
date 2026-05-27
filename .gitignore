@@ -1,0 +1,56 @@
+﻿# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Minecraft runtime
+logs/
+crash-reports/
+data/
+local/
+
+# Minecraft Client files
+screenshots/
+ESM/
+/options.txt
+optionsof.txt
+servers.dat
+usernamecache.json
+usercache.json
+command_history.txt
+emi.json
+minecraftinstance.json
+user-prefs.json
+
+# Saves / Worlds
+saves/
+backups/
+
+# Downloads / Generated
+downloads/
+resourcepacks/
+shaderpacks/
+schematics/
+tmp/
+tmp-client/
+
+# Metadata
+.mixin.out/
+.sable/
+.probe/
+*.mrpack
+.curseclient
+search_index/
+
+modlist.json
+
+# Java
+hs_err_pid*
+replay_pid*
+
+# Mods / moddata
+mods/
+moddata
+patchouli_books/
+patchouli_data.json
+ponders_watched.json
