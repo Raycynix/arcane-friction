@@ -33,6 +33,7 @@ shaderpacks/
 schematics/
 tmp/
 tmp-client/
+*.bak
 
 # Metadata
 .mixin.out/
