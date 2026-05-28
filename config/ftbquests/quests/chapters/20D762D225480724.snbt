@@ -1,0 +1,65 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "20D762D225480724"
+	group: ""
+	id: "20D762D225480724"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			hide_dependency_lines: false
+			id: "5835D3E7CE350D97"
+			progression_mode: "linear"
+			rewards: [{
+				id: "73DB91D8764D6B2E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "50A43EC16BE9B1C7"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5835D3E7CE350D97"]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			hide_until_deps_visible: false
+			id: "6A8B02EE9C35851B"
+			rewards: [{
+				id: "78601B8293CC49BC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4E36413AD0E7B35C"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5835D3E7CE350D97"]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			id: "4338BD9191E8A1D9"
+			rewards: [{
+				id: "3C959F67DC47DDAB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "1A8B35E190235EB9"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+	]
+}
