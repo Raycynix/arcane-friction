@@ -1,15 +1,89 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "start"
-	group: "7936B33C00C2C1BD"
+	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: {
+		components: {
+			"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "14DC297A31C6F5A3"
+	images: [
+		{
+			click: "https://github.com/Raycynix"
+			dependency: "3C6E55AF7181932C"
+			height: 1.0d
+			hover: ["GitHub"]
+			image: "arcanefriction:textures/quests/github-logo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			click: "https://boosty.to/raycynix"
+			dependency: "3C6E55AF7181932C"
+			height: 1.0d
+			hover: ["Boosty"]
+			image: "arcanefriction:textures/quests/boosty-logo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			click: "https://patreon.com/Raycynix"
+			dependency: "3C6E55AF7181932C"
+			height: 1.0d
+			hover: ["Patreon"]
+			image: "arcanefriction:textures/quests/patreon-logo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			click: "https://discord.gg/zvhnVZmY2e"
+			dependency: "3C6E55AF7181932C"
+			height: 1.0d
+			hover: ["Discord"]
+			image: "arcanefriction:textures/quests/discord-logo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			click: "https://t.me/raycynix"
+			dependency: "3C6E55AF7181932C"
+			height: 1.0d
+			hover: ["Telegram"]
+			image: "arcanefriction:textures/quests/telegram-logo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 4.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			can_repeat: false
 			hide_dependency_lines: false
+			icon: {
+				components: {
+					"ftbquests:icon": "arcanefriction:textures/quests/raycynix-logo.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
 			id: "5835D3E7CE350D97"
 			progression_mode: "linear"
 			rewards: [{
@@ -17,31 +91,36 @@
 				type: "xp"
 				xp: 10
 			}]
-			shape: "square"
+			shape: "none"
 			tasks: [{
 				id: "50A43EC16BE9B1C7"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 2.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5835D3E7CE350D97"]
 			hide_dependency_lines: true
 			hide_details_until_startable: true
 			hide_until_deps_visible: false
+			icon: {
+				id: "minecraft:command_block"
+			}
+			icon_scale: 2.0d
 			id: "6A8B02EE9C35851B"
 			rewards: [{
 				id: "78601B8293CC49BC"
 				type: "xp"
 				xp: 10
 			}]
+			shape: "none"
 			tasks: [{
 				id: "4E36413AD0E7B35C"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5835D3E7CE350D97"]
@@ -58,7 +137,79 @@
 				id: "1A8B35E190235EB9"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5835D3E7CE350D97"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/teams.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "0031A6FD6EE44128"
+			optional: true
+			rewards: [{
+				id: "187953CAF5FA0D04"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "none"
+			tasks: [{
+				id: "6E564447594F4900"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5835D3E7CE350D97"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3C6E55AF7181932C"
+			optional: true
+			rewards: [{
+				id: "500A379D10C89E83"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "22FD0CBC22BDBF56"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5835D3E7CE350D97"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/map"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.75d
+			id: "6F696131C1BD6F2E"
+			rewards: [{
+				id: "2D13A94B5BB2427A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4911506E1B1C0B37"
+				type: "checkmark"
+			}]
+			x: 2.5d
 			y: 0.0d
 		}
 	]

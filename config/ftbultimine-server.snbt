@@ -25,11 +25,11 @@
 		
 		# Require a damageable tool, or an item in the 'ftbultimine:tools' tag, to ultimine.
 		# Default: false
-		require_tool: false
+		require_tool: true
 		
 		# Require a valid tool for the block being ultimined, i.e. one that can properly harvest the block
 		# Default: false
-		require_valid_tool_for_block: false
+		require_valid_tool_for_block: true
 		
 		# Cooldown in ticks between successive uses of the ultimine feature
 		# If FTB Ranks is installed, the 'ftbultimine.ultimine_cooldown' ranks node can override this
