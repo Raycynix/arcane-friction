@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "age_0"
+	group: "56CC2C565D0FBB54"
+	id: "1C0A376D028EC63B"
+	order_index: 0
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [{
+		disable_toast: true
+		id: "13FFFDE66C3D7E36"
+		rewards: [{
+			id: "4BEA2D2F4961A592"
+			type: "xp"
+			xp: 10
+		}]
+		tasks: [{
+			dimension: "minecraft:overworld"
+			id: "3A4501C58000C457"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}
