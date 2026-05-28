@@ -139,51 +139,59 @@
 		entity_heads: true
 		entity_icon: {
 			"aquaculture:brown_trout": false
-			"minecraft:pig": true
-			"aquaculture:capitaine": false
-			"ars_nouveau:drygmy": true
-			"minecraft:armadillo": true
-			"iceandfire:lightning_dragon": true
-			"ars_elemental:siren_entity": true
-			"aquaculture:synodontis": false
+			"iceandfire:hippocampus": true
 			"aquaculture:gar": false
-			"yungscavebiomes:sand_snapper": true
+			"iceandfire:deathworm": true
 			"minecraft:rabbit": true
-			"aquaculture:rainbow_trout": false
-			"aquaculture:bluegill": false
-			"minecraft:iron_golem": true
-			"minecraft:camel": true
-			"aquaculture:minnow": false
-			"cataclysm:wadjet": true
-			"aquaculture:red_grouper": false
-			"minecraft:squid": true
-			"minecraft:glow_squid": true
 			"aquaculture:jellyfish": false
-			"minecraft:wolf": true
-			"minecraft:salmon": false
-			"minecraft:pufferfish": false
-			"aquaculture:tuna": false
+			"aquaculture:boulti": false
+			"minecraft:chicken": true
+			"aquaculture:synodontis": false
+			"minecraft:dolphin": true
+			"aquaculture:capitaine": false
+			"minecraft:iron_golem": true
+			"irons_spellbooks:priest": true
 			"iceandfire:fire_dragon": true
+			"minecraft:squid": true
 			"aquaculture:bayad": false
 			"ars_nouveau:whirlisprig": true
-			"aquaculture:boulti": false
-			"forbidden_arcanus:lost_soul": true
 			"ars_nouveau:starbuncle": true
-			"minecraft:hoglin": true
+			"minecraft:axolotl": true
+			"minecraft:pig": true
+			"minecraft:cod": false
 			"aquaculture:carp": false
-			"minecraft:villager": true
-			"iceandfire:deathworm": true
-			"minecraft:chicken": true
-			"minecraft:horse": true
-			"minecraft:bat": true
-			"cataclysm:koboleton": true
+			"ars_elemental:siren_entity": true
 			"minecraft:sheep": true
-			"artifacts:mimic": true
-			"minecraft:dolphin": true
+			"aquaculture:atlantic_halibut": false
+			"aquaculture:atlantic_herring": false
+			"aquaculture:red_grouper": false
+			"ars_nouveau:drygmy": true
+			"aquaculture:rainbow_trout": false
+			"minecraft:pufferfish": false
+			"minecraft:cat": true
+			"forbidden_arcanus:lost_soul": true
+			"minecraft:hoglin": true
+			"aquaculture:tuna": false
+			"minecraft:armadillo": true
+			"aquaculture:piranha": false
 			"minecraft:cow": true
-			"iceandfire:hippocampus": true
-			"block_factorys_bosses:sandworm": true
+			"yungscavebiomes:sand_snapper": true
 			"minecraft:tropical_fish": false
+			"iceandfire:lightning_dragon": true
+			"cataclysm:koboleton": true
+			"minecraft:horse": true
+			"minecraft:bee": true
+			"artifacts:mimic": true
+			"minecraft:glow_squid": true
+			"minecraft:salmon": false
+			"cataclysm:wadjet": true
+			"block_factorys_bosses:sandworm": true
+			"minecraft:wolf": true
+			"minecraft:camel": true
+			"aquaculture:minnow": false
+			"minecraft:bat": true
+			"aquaculture:bluegill": false
+			"minecraft:villager": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
