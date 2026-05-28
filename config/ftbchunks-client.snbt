@@ -168,6 +168,7 @@
 			"ars_nouveau:drygmy": true
 			"aquaculture:rainbow_trout": false
 			"minecraft:pufferfish": false
+			"minecraft:trader_llama": true
 			"minecraft:cat": true
 			"forbidden_arcanus:lost_soul": true
 			"minecraft:hoglin": true
@@ -191,6 +192,7 @@
 			"aquaculture:minnow": false
 			"minecraft:bat": true
 			"aquaculture:bluegill": false
+			"minecraft:wandering_trader": true
 			"minecraft:villager": true
 		}
 		
