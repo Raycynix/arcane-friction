@@ -1,7 +1,6 @@
 {
-	chapter.07414DEF14F8AD07.title: "Utilities"
-	chapter.20D762D225480724.title: "Начало"
-	chapter_group.02F17BCB93648163.title: "Misc"
+	chapter.14DC297A31C6F5A3.title: "Начало"
+	chapter_group.7936B33C00C2C1BD.title: "Информация"
 	file.0000000000000001.title: "Arcane Friction"
 	quest.4338BD9191E8A1D9.quest_desc: [
 		"Данная сборка была разработана с целью создать новый опыт для игроков в Minecraft"
@@ -42,4 +41,5 @@
 	task.1A8B35E190235EB9.title: "Прогрессия"
 	task.4E36413AD0E7B35C.title: "Базовые команды"
 	task.50A43EC16BE9B1C7.title: "Добро Пожаловать!"
+	task.5E3B5F2E753572B2.title: "Welcome!"
 }
