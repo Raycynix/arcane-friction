@@ -212,5 +212,18 @@
 			x: 2.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["5835D3E7CE350D97"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "1A7F8A7AB1B68CB0"
+			tasks: [{
+				id: "3202FE0FB6186476"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
 	]
 }
