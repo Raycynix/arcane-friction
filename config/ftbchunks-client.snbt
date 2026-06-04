@@ -138,9 +138,9 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:horse": true
-			"minecraft:chicken": true
 			"minecraft:pig": true
+			"minecraft:chicken": true
+			"minecraft:horse": true
 			"minecraft:cow": true
 			"forbidden_arcanus:lost_soul": true
 		}
