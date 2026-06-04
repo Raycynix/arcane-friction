@@ -1,0 +1,10 @@
+{
+	"title": "Warrior",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "rogues:warrior_armor_head"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/stone.png"
+}

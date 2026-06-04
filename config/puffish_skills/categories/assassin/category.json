@@ -1,9 +1,9 @@
 {
-	"title": "Example",
+	"title": "Assassin",
 	"icon": {
 		"type": "item",
 		"data": {
-			"item": "iron_sword"
+			"item": "rogues:assassin_armor_head"
 		}
 	},
 	"background": "textures/gui/advancements/backgrounds/stone.png"
