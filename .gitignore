@@ -33,6 +33,12 @@ shaderpacks/
 schematics/
 tmp/
 tmp-client/
+*.bak
+
+!config/inventoryprofilesnext/inventoryprofiles.json
+!config/inventoryprofilesnext/integrationHints/
+config/inventoryprofilesnext/*
+
 
 # Metadata
 .mixin.out/

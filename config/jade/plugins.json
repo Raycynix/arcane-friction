@@ -85,6 +85,9 @@
     "block_properties": false,
     "mod_name": true
   },
+  "allthemodium": {
+    "teleport_pad": true
+  },
   "extendedae": {
     "jade_chamber": true,
     "jade_wireless": true
@@ -146,9 +149,6 @@
   },
   "mekajadeupgrade": {
     "upgrades": true
-  },
-  "apotheosis": {
-    "adventure": true
   },
   "occultism": {
     "foliot": true,
