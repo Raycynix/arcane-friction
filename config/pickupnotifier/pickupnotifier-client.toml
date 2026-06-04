@@ -1,4 +1,4 @@
-﻿[display]
+[display]
 	#Should the picked up amount be shown when it's just a single item.
 	#Default Value: true
 	display_single_count = true
