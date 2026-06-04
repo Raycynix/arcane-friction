@@ -20,7 +20,7 @@
 			dependency: "3C6E55AF7181932C"
 			height: 1.0d
 			hover: ["GitHub"]
-			image: "arcanefriction:textures/quests/github-logo.png"
+			image: "arcanefriction:textures/quests/github_logo.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: -3.0d
@@ -31,7 +31,7 @@
 			dependency: "3C6E55AF7181932C"
 			height: 1.0d
 			hover: ["Boosty"]
-			image: "arcanefriction:textures/quests/boosty-logo.png"
+			image: "arcanefriction:textures/quests/boosty_logo.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
@@ -42,7 +42,7 @@
 			dependency: "3C6E55AF7181932C"
 			height: 1.0d
 			hover: ["Patreon"]
-			image: "arcanefriction:textures/quests/patreon-logo.png"
+			image: "arcanefriction:textures/quests/patreon_logo.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.0d
@@ -53,7 +53,7 @@
 			dependency: "3C6E55AF7181932C"
 			height: 1.0d
 			hover: ["Discord"]
-			image: "arcanefriction:textures/quests/discord-logo.png"
+			image: "arcanefriction:textures/quests/discord_logo.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: -1.5d
@@ -79,7 +79,7 @@
 			hide_dependency_lines: false
 			icon: {
 				components: {
-					"ftbquests:icon": "arcanefriction:textures/quests/raycynix-logo.png"
+					"ftbquests:icon": "arcanefriction:textures/quests/raycynix_logo.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -224,6 +224,43 @@
 			}]
 			x: -2.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["5835D3E7CE350D97"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			id: "08827BE23E415E73"
+			rewards: [{
+				id: "03C8D8E528A08D4F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1DBCC3214839BB51"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08827BE23E415E73"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "4B32FDD29BBCF1DB"
+			rewards: [{
+				id: "6E4C920774FB8ED3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4E577CE04CFDA18A"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.0d
 		}
 	]
 }
