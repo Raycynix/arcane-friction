@@ -1,0 +1,386 @@
+{
+	"utjzowljqqtket07": {
+		"definition": "uniq",
+		"x": -1103.8970144248324,
+		"y": -15.079175837610126,
+		"root": false
+	},
+	"s64135o7krojjrij": {
+		"definition": "main_movement_speed",
+		"x": -1103.8970144248326,
+		"y": 32.920824162389806,
+		"root": true
+	},
+	"z4z7g85okun2nrf8": {
+		"definition": "debuff_duration",
+		"x": -1132.1107065348713,
+		"y": -53.91199156760756,
+		"root": true
+	},
+	"maekvg1rjfz9r5pa": {
+		"definition": "buff_duration",
+		"x": -1075.6833223147935,
+		"y": -53.91199156760756,
+		"root": true
+	},
+	"7trrt74ez5b8nekz": {
+		"definition": "armor_speed-for-buff",
+		"x": -1058.246301642665,
+		"y": -0.24636010761269844,
+		"root": true
+	},
+	"yf4jkoscx6g6tga5": {
+		"definition": "cooking_double1",
+		"x": -1149.5477272069995,
+		"y": -0.24636010761269844,
+		"root": true
+	},
+	"blpzoiiftpsg9bne": {
+		"definition": "cooking_double2",
+		"x": -1240.849152771335,
+		"y": 29.41927135238217,
+		"root": false
+	},
+	"xmpxt8odku1ylyp9": {
+		"definition": "cooking_double3",
+		"x": -1332.1505783356693,
+		"y": 59.08490281237724,
+		"root": false
+	},
+	"fr9g9ovf3onf8hes": {
+		"definition": "cooking_double4",
+		"x": -1423.4520039000047,
+		"y": 88.75053427237205,
+		"root": false
+	},
+	"sxygrp9263ymhjeb": {
+		"definition": "cooking_save-ingridient",
+		"x": -1514.7534294643394,
+		"y": 118.41616573236713,
+		"root": false
+	},
+	"jma0bn5msb9yn7mr": {
+		"definition": "main_health",
+		"x": -1103.8970144248326,
+		"y": 128.9208241623899,
+		"root": false
+	},
+	"slt0grstaqf6mbj0": {
+		"definition": "main_luck",
+		"x": -1103.8970144248326,
+		"y": 224.92082416238978,
+		"root": false
+	},
+	"0akz6wynseulvnho": {
+		"definition": "main_luck",
+		"x": -1103.8970144248322,
+		"y": 320.9208241623898,
+		"root": false
+	},
+	"6v7hy949ai8p5crz": {
+		"definition": "main_hunger",
+		"x": -1103.8970144248322,
+		"y": 416.9208241623898,
+		"root": false
+	},
+	"0necyx82mprddxhc": {
+		"definition": "armor_health-for-buff",
+		"x": -966.9448760783303,
+		"y": 29.41927135238223,
+		"root": false
+	},
+	"jo08viwc4iimpebx": {
+		"definition": "armor_debuff",
+		"x": -875.6434505139955,
+		"y": 59.08490281237724,
+		"root": false
+	},
+	"o8zlku6lhrqflva8": {
+		"definition": "armor_regen-on-full-saturation",
+		"x": -784.3420249496608,
+		"y": 88.75053427237205,
+		"root": false
+	},
+	"xoaw79z095j75vyo": {
+		"definition": "armor_immune-to-poison",
+		"x": -693.0405993853261,
+		"y": 118.41616573236725,
+		"root": false
+	},
+	"cs53l5aejc4a6xmq": {
+		"definition": "debuff_strength",
+		"x": -1188.5380907549486,
+		"y": -131.5776230276027,
+		"root": false
+	},
+	"j0ji7m3wz37k51zn": {
+		"definition": "debuff_chance-for-random-debuff",
+		"x": -1244.9654749750262,
+		"y": -209.24325448759762,
+		"root": false
+	},
+	"g8onqqdenuwe01ja": {
+		"definition": "debuff_damage-for-debuff",
+		"x": -1301.3928591951033,
+		"y": -286.9088859475925,
+		"root": false
+	},
+	"a3r95lz3g84jcqz8": {
+		"definition": "debuff_poisons-are-deadly",
+		"x": -1357.8202434151808,
+		"y": -364.5745174075874,
+		"root": false
+	},
+	"w61dk140h32v8ejl": {
+		"definition": "buff_strength",
+		"x": -1019.2559380947164,
+		"y": -131.5776230276027,
+		"root": false
+	},
+	"sfbnrudwz0pma77f": {
+		"definition": "buff_chance-for-random-buff",
+		"x": -962.8285538746388,
+		"y": -209.24325448759762,
+		"root": false
+	},
+	"qryy249xy741pk9y": {
+		"definition": "buff_chance-not-waste-potion",
+		"x": -906.4011696545614,
+		"y": -286.9088859475925,
+		"root": false
+	},
+	"rwwa3tpzi33kcl7u": {
+		"definition": "buff_eat-sat-for-use-potion",
+		"x": -849.973785434484,
+		"y": -364.5745174075874,
+		"root": false
+	},
+	"kv8e4l4ygk80i4hu": {
+		"definition": "engineer_uniq",
+		"x": 0,
+		"y": 0,
+		"root": false
+	},
+	"9yo478ciagvmsyxp": {
+		"definition": "engineer_craft-durability-tools",
+		"x": -41.56921938165311,
+		"y": -24.00000000000005,
+		"root": true
+	},
+	"4dbgog6t9ifhkaz9": {
+		"definition": "engineer_tools-durability",
+		"x": 41.569219381653056,
+		"y": -24.00000000000005,
+		"root": true
+	},
+	"773fesmvp6mg1sdn": {
+		"definition": "engineer_upgrade-tools-base",
+		"x": 0,
+		"y": 48,
+		"root": true
+	},
+	"u2vi83qatr1w8zic": {
+		"definition": "engineer_craft-durability-armor",
+		"x": -124.70765814495921,
+		"y": -72.00000000000004,
+		"root": false
+	},
+	"2hb02nwbpx3br49r": {
+		"definition": "engineer_craft-damage-weapons",
+		"x": -207.84609690826534,
+		"y": -120.00000000000004,
+		"root": false
+	},
+	"awd8guvc396epqcq": {
+		"definition": "engineer_craft-looting",
+		"x": -290.9845356715714,
+		"y": -168.0000000000005,
+		"root": false
+	},
+	"8e33s7sa0331cddw": {
+		"definition": "engineer_craft-armor-toughness",
+		"x": -374.12297443487756,
+		"y": -216.00000000000034,
+		"root": false
+	},
+	"o1hxey7u2smx71gu": {
+		"definition": "engineer_craft-random-enchants",
+		"x": -457.2614131981837,
+		"y": -264.0000000000001,
+		"root": false
+	},
+	"493xv544sve0r45s": {
+		"definition": "engineer_tools-experience",
+		"x": 124.70765814495918,
+		"y": -72.00000000000004,
+		"root": false
+	},
+	"p9iae2lfodlsdpwz": {
+		"definition": "engineer_tools-haste-chance",
+		"x": 207.84609690826522,
+		"y": -120.00000000000004,
+		"root": false
+	},
+	"afue8c8b5o9vvrt4": {
+		"definition": "engineer_tools-luck-chance",
+		"x": 290.98453567157134,
+		"y": -168.0000000000005,
+		"root": false
+	},
+	"917ko2c63inbccyp": {
+		"definition": "engineer_tools-add-stella",
+		"x": 374.12297443487734,
+		"y": -216.00000000000034,
+		"root": false
+	},
+	"szcqlwcnadxxyiyr": {
+		"definition": "engineer_upgrade-luck",
+		"x": 0,
+		"y": 144,
+		"root": false
+	},
+	"gksdtlnep1y9vh8j": {
+		"definition": "engineer_upgrade-luck",
+		"x": 1.1368683772161603e-13,
+		"y": 240,
+		"root": false
+	},
+	"1xhhiqxnrgv5lcoo": {
+		"definition": "engineer_upgrade-luck",
+		"x": -1.1368683772161603e-13,
+		"y": 336.00000000000006,
+		"root": false
+	},
+	"qd5w9zu5c6ne66h4": {
+		"definition": "engineer_upgrade-tools-ultima",
+		"x": 0,
+		"y": 432.00000000000006,
+		"root": false
+	},
+	"yp84qt0l7tf0u24h": {
+		"definition": "traveller_uniq",
+		"x": 1151.3832047727733,
+		"y": 37.692383410686,
+		"root": false
+	},
+	"xv00k6mtd93aausq": {
+		"definition": "traveller_aventure-luck1",
+		"x": 1117.4420792758192,
+		"y": 71.63350890764028,
+		"root": true
+	},
+	"2zdgs4yt7poa9l27": {
+		"definition": "traveller_dungeon-luck",
+		"x": 1185.3243302697276,
+		"y": 71.63350890764028,
+		"root": true
+	},
+	"y3lf9xoyinjgd0s7": {
+		"definition": "traveller_hunter-luck",
+		"x": 1185.3243302697276,
+		"y": 3.7512579137317204,
+		"root": true
+	},
+	"b7zwkvk8jjhtezf4": {
+		"definition": "traveller_travel-speed",
+		"x": 1117.4420792758192,
+		"y": 3.7512579137317204,
+		"root": true
+	},
+	"r6lr6tvdi3s8sci6": {
+		"definition": "traveller_travel-swim-speed",
+		"x": 1049.5598282819105,
+		"y": -64.13099308017686,
+		"root": false
+	},
+	"yzir2a0fjv9kl7i3": {
+		"definition": "traveller_travel-slow-effect-less",
+		"x": 981.6775772880019,
+		"y": -132.01324407408532,
+		"root": false
+	},
+	"xdb48dsekct3sqsv": {
+		"definition": "traveller_travel-stamina-more",
+		"x": 913.7953262940933,
+		"y": -199.89549506799392,
+		"root": false
+	},
+	"19z8nrnhp4ml8dlr": {
+		"definition": "traveller_travel-golden-apple",
+		"x": 845.9130753001848,
+		"y": -267.77774606190246,
+		"root": false
+	},
+	"zcp0tvky8ml71gop": {
+		"definition": "traveller_hunter-chance-double-loot",
+		"x": 1253.2065812636363,
+		"y": -64.13099308017686,
+		"root": false
+	},
+	"f3ag39vj1ha9w2i8": {
+		"definition": "traveller_hunter-chance-luck",
+		"x": 1321.0888322575447,
+		"y": -132.01324407408532,
+		"root": false
+	},
+	"cphh96q4m8syrn4y": {
+		"definition": "traveller_hunter-chance-double-loot-boss",
+		"x": 1388.9710832514531,
+		"y": -199.89549506799392,
+		"root": false
+	},
+	"29lwh0y6h5a7rm8l": {
+		"definition": "traveller_hunter-boss-damage",
+		"x": 1456.8533342453618,
+		"y": -267.77774606190246,
+		"root": false
+	},
+	"mqt13p9gnkp2qdnf": {
+		"definition": "traveller_aventure-luck2",
+		"x": 1049.5598282819105,
+		"y": 139.51575990154885,
+		"root": false
+	},
+	"y8wgr37p2uf4kyqr": {
+		"definition": "traveller_aventure-luck3",
+		"x": 981.6775772880019,
+		"y": 207.39801089545745,
+		"root": false
+	},
+	"450ciqirdnvdo5yr": {
+		"definition": "traveller_aventure-luck4",
+		"x": 913.7953262940933,
+		"y": 275.280261889366,
+		"root": false
+	},
+	"0d56fbas1v41nxfv": {
+		"definition": "traveller_aventure-luck5",
+		"x": 845.9130753001848,
+		"y": 343.16251288327453,
+		"root": false
+	},
+	"t0ylymqsmb4z9c8d": {
+		"definition": "traveller_dungeon-luck",
+		"x": 1321.0888322575447,
+		"y": 207.39801089545745,
+		"root": false
+	},
+	"c4iij2oocfl1q7gl": {
+		"definition": "traveller_dungeon-chance-double-loot",
+		"x": 1253.2065812636363,
+		"y": 139.5157599015489,
+		"root": false
+	},
+	"izbmngc8lhlyeaok": {
+		"definition": "traveller_dungeon-can-create-struct-compas",
+		"x": 1388.9710832514534,
+		"y": 275.280261889366,
+		"root": false
+	},
+	"wfub63zludoc3m12": {
+		"definition": "traveller_dungeon-chance-double-loot",
+		"x": 1456.8533342453618,
+		"y": 343.16251288327453,
+		"root": false
+	}
+}
