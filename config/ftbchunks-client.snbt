@@ -139,9 +139,10 @@
 		entity_heads: true
 		entity_icon: {
 			"minecraft:pig": true
-			"minecraft:chicken": true
-			"minecraft:horse": true
 			"minecraft:cow": true
+			"minecraft:horse": true
+			"minecraft:chicken": true
+			"ars_nouveau:starbuncle": true
 			"forbidden_arcanus:lost_soul": true
 		}
 		

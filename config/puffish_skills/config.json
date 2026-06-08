@@ -1,9 +1,7 @@
 {
-	"version": 3,
-
-	"categories": [
-		"alchemist",
-		"assassin",
-		"warrior"		
-	]
+  "version": 3,
+  "categories": [
+    "researchers",
+    "warriors"
+  ]
 }

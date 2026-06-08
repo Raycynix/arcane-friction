@@ -1,9 +1,9 @@
 {
-	"title": "Assassin",
+	"title": "Warriors",
 	"icon": {
 		"type": "item",
 		"data": {
-			"item": "rogues:assassin_armor_head"
+			"item": "allthemodium:unobtainium_helmet"
 		}
 	},
 	"background": "textures/gui/advancements/backgrounds/stone.png"

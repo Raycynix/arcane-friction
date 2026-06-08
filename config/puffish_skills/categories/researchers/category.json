@@ -1,9 +1,9 @@
 {
-	"title": "Warrior",
+	"title": "Researchers",
 	"icon": {
 		"type": "item",
 		"data": {
-			"item": "rogues:warrior_armor_head"
+			"item": "create:wrench"
 		}
 	},
 	"background": "textures/gui/advancements/backgrounds/stone.png"
