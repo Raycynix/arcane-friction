@@ -1,0 +1,1061 @@
+{
+  "assassin_armor-heart-buff": {
+    "title": "+3 hearts",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "assassin_armor-armor-buff": {
+    "title": "+2 armor",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "absorption"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "assassin_armor-thoughness-buff": {
+    "title": "+2 throughness",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor_toughness",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "assassin_armor-immune-to-slowness": {
+    "title": "Immune to Slowness",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "slowness"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-armor_immune_to_slowness_enabled"
+        }
+      }
+    ]
+  },
+  "assassin_armor-multi=buff": {
+    "title": "Buffs Your skills by 2 times",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-armor_multi_buff_enabled"
+        }
+      }
+    ]
+  },
+  
+  "assassin_dagger-armor-shred": {
+    "title": "Armor Shred",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "absorption"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:armor_shred",
+          "value": 5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "assassin_dagger-crit-chance": {
+    "title": "+10% Critical Chance",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "assassin_dagger-attack-speed": {
+    "title": "+20% Attack Speed",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "speed"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.2,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "assassin_dagger-crit-damage": {
+    "title": "+50% Critical Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "assassin_dagger-bleeding-on-crit": {
+    "title": "Bleeding on Critical Hit",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "poison"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-dagger_bleeding_on_crit_enabled"
+        }
+      }
+    ]
+  },
+  
+  "assassin_poison-from-cauldron": {
+    "title": "Poison from Cauldron",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "poison"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-poison_from_cauldron_enabled"
+        }
+      }
+    ]
+  },
+  "assassin_poison-duration-buff": {
+    "title": "+20% Poison Duration on target",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "poison"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-poison_duration_buff_enabled"
+        }
+      }
+    ]
+  },
+  "assassin_poison-weapon-buff": {
+    "title": "+20% Damage from Poisoned Weapon on target",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "poison"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-posioned_weapon_buff"
+        }
+      }
+    ]
+  },
+  "assassin_poison-slowness-debuff": {
+    "title": "Slowness Debuff",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "slowness"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-poison_slowness_debuff_enabled"
+        }
+      }
+    ]
+  },
+  "assassin_poison-are-deadly": {
+    "title": "Poisons are Deadly",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "poison"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-debuff_poisons_enabled"
+        }
+      }
+    ]
+  },
+  
+  "assassin_bow-reload-speed": {
+    "title": "+50% Reload Speed",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "speed"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-bow_reload_speed_enabled"
+        }
+      }
+    ]
+  },
+  "assassin_bow-damage20": {
+    "title": "+20% Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.2,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "assassin_bow-damage10": {
+    "title": "+10% Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.1,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "assassin_bow-return_throw25": {
+    "title": "+25% Return Throw",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-bow_return_throw_enabled"
+        }
+      }
+    ]
+  },
+  "assassin_bow-reload-speed2": {
+    "title": "+50% Reload Speed",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "speed"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-bow_reload_speed2_enabled"
+        }
+      }
+    ]
+  },
+  "assassin_bow-ranged_no_ammo15": {
+    "title": "No Ammo",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-bow_no_ammo_enabled"
+        }
+      }
+    ]
+  },
+  "assassin_bow-damage25": {
+    "title": "+10% Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.25,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "assassin_bow-ranged_armor_shred": {
+    "title": "Ranged Armor Shred",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "absorption"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-ranged_armor_shred_enabled"
+        }
+      }
+    ]
+  },
+  "assassin_bow-armor_shred": {
+    "title": "Armor Shred",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "absorption"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-bow_armor_shred_enabled"
+        }
+      }
+    ]
+  },
+  
+  "assassin_invis-buff-damage": {
+    "title": "+25% Damage from invisibility",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "invisibility"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-invis_stealth_damage_buff_enabled"
+        }
+      }
+    ]
+  },
+  "assassin_invis-buff-duration": {
+    "title": "+20% Duration of invisibility",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "invisibility"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-invis_stealth_duration_buff_enabled"
+        }
+      }
+    ]
+  },
+  "assassin_invis-buff-damage2": {
+    "title": "+25% Damage from invisibility",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "invisibility"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-invis_stealth_damage2_buff_enabled"
+        }
+      }
+    ]
+  },
+  "assassin_invis-buff-duration2": {
+    "title": "+20% Duration of invisibility",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "invisibility"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-invis_stealth_duration2_buff_enabled"
+        }
+      }
+    ]
+  },
+  "assassin_invis-shadowstep": {
+    "title": "Shadowstep",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "invisibility"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-invis_shadowstep_enabled"
+        }
+      }
+    ]
+  },
+  
+  "assassin_mobil-buff-speed": {
+    "title": "+10% Speed Movement",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "speed"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.1,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "assassin_mobil-buff-dodge": {
+    "title": "+10% Chance Dodge Attacks",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-mobil_buff_dodge_enabled"
+        }
+      }
+    ]
+  },
+  "assassin_mobil-buff-speed15": {
+    "title": "+10% Speed",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "speed"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.15,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "assassin_mobil-buff-dodge2": {
+    "title": "+15% Dodge",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-mobil_buff_dodge2_enabled"
+        }
+      }
+    ]
+  },
+  "assassin_mobil-double-jump": {
+    "title": "Double Jump",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "jump_boost"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-mobil_double_jump_enabled"
+        }
+      }
+    ]
+  },
+  
+  "assassin_uniq": {
+    "title": "Удар В Спину",
+    "description": "Шанс убить любого врага 5%",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "invisibility"
+      }
+    },
+    "required_skills": 5,
+    "required_exclusions": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_assassin-mobil_backstab_enabled"
+        }
+      }
+    ]
+  },
+  
+  "warrior_main-health": {
+    "title": "Health",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "health_boost"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "warrior_main-damage": {
+    "title": "Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "warrior_main-projectile-protection": {
+    "title": "Projectile Protection",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "absorption"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-main_projectile_protection_enabled"
+        }
+      }
+    ]
+  },
+  "warrior_main-armor-durability": {
+    "title": "Armor Durability",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "absorption"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-main_armor_durability_enabled"
+        }
+      }
+    ]
+  },
+  "warrior_main-absorption-effect": {
+    "title": "Absorption Effect",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "absorption"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-main_absorption_effect_enabled"
+        }
+      }
+    ]
+  },
+  
+  "warrior_armor-negative-effects": {
+    "title": "Negative Effects",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "absorption"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-armor_negative_effects_enabled"
+        }
+      }
+    ]
+  },
+  "warrior_armor-bonus": {
+    "title": "Armor Bonus",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "absorption"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 0.2,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor_toughness",
+          "value": 0.2,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "warrior_armor-ignore-phys-damage": {
+    "title": "Ignore Physical Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "absorption"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-armor_ignore_phys_damage_enabled"
+        }
+      }
+    ]
+  },
+  "warrior_armor-bonuses-scale": {
+    "title": "Armor Bonuses Scale",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "absorption"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-armor_bonuses_scale_enabled"
+        }
+      }
+    ]
+  },
+  
+  "warrior_berserk-axe-speed": {
+    "title": "Axe Speed",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "speed"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-berserk_axe_speed_enabled"
+        }
+      }
+    ]
+  },
+  "warrior_berserk-damage-vampire-multi": {
+    "title": "Vampire Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-berserk_damage_vampire_multi_enabled"
+        }
+      }
+    ]
+  },
+  "warrior_berserk-axe-damage": {
+    "title": "Axe Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-berserk_axe_damage_enabled"
+        }        
+      }
+    ]
+  },
+  "warrior_berserk-hp-regen": {
+    "title": "HP Regen",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "health_boost"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-berserk_hp_regen_enabled"
+        }        
+      }
+    ]
+  },
+  "warrior_berserk-multi-damage-per-less-hp": {
+    "title": "Multi Damage Per Less HP",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-berserk_multi_damage_per_less_hp_enabled"
+        }       
+      }
+    ]
+  },
+  
+  "warrior_sword-damage": {
+    "title": "Sword Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-sword_damage_enabled"
+        }       
+      }
+    ]
+  },
+  "warrior_sword-crit-chance": {
+    "title": "Crit Chance",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-sword_krit_chance_enabled"
+        }       
+      }
+    ]
+  },
+  "warrior_sword-crit-damage": {
+    "title": "Crit Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-sword_krit_damage_enabled"
+        }      
+      }
+    ]
+  },
+  "warrior_sword-attack-speed": {
+    "title": "Attack Speed",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "speed"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-sword-attack-speed-enabled"
+        }
+      }
+    ]
+  },
+  "warrior_sword-splash-damage": {
+    "title": "Splash Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-sword_splash_damage_enabled"
+        }     
+      }
+    ]
+  },
+  
+  "warrior_shield-knockback-resistance": {
+    "title": "Knockback Resistance",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "resistance"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-shield_knockback_resistance_enabled"
+        }     
+      }
+    ]
+  },
+  "warrior_shield-armor-while-shield": {
+    "title": "Armor While Shield",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "absorption"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-shield_armor_while_shield_enabled"
+        }    
+      }
+    ]
+  },
+  "warrior_shield-health-while-shield": {
+    "title": "Health While Shield",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "health_boost"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-shield_health_while_shield_enabled"
+        }   
+      }
+    ]
+  },
+  "warrior_shield-turtle": {
+    "title": "Turtle",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "resistance"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-shield_turtle_enabled"
+        }  
+      }
+    ]
+  },
+  
+  
+  "warrior_uniq": {
+    "title": "Uniq",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "required_skills": 5,
+    "required_exclusions": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_warrior-uniq_enabled"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1045 @@
+{
+  "main_movement_speed": {
+    "title": "+25% Movement Speed",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "speed"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.25,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "main_health": {
+    "title": "Increase Max Health",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "health_boost"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "main_luck": {
+    "title": "Increase Luck",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "main_hunger": {
+    "title": "-50% Hunger",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "hunger"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+ 
+  "armor_speed-for-buff": {
+    "title": "+10% Speed",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "speed"
+      }
+    },
+    "required_skills": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-armor_buff_speed_enabled"
+        }
+      }
+    ]
+  },
+  "armor_health-for-buff": {
+    "title": "+2 Health",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "health_boost"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-armor_buff_health_enabled"
+        }
+      }
+    ]
+  },
+  "armor_debuff": {
+    "title": "-50% Debuff",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "weakness"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-armor_buff_debuff_enabled"
+        }
+      }
+    ]
+  },
+  "armor_regen-on-full-saturation": {
+    "title": "Regen II on Full Saturation",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-armor_buff_regen2_enabled"
+        }
+      }
+    ]
+  },
+  "armor_immune-to-poison": {
+    "title": "Immune to Poison",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "poison"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-armor_buff_poison_immune_enabled"
+        }
+      }
+    ]
+  },
+  
+  "debuff_duration": {
+    "title": "+20% Debuff Duration",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "weakness"
+      }
+    },
+    "required_skills": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-debuff_duration_enabled"
+        }
+      }
+    ]
+  },
+  "debuff_strength": {
+    "title": "+1 Strength",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-debuff_strength_enabled"
+        }
+      }
+    ]
+  },
+  "debuff_chance-for-random-debuff": {
+    "title": "+15% Chance for Random Debuff",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "weakness"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-debuff_chance_random_enabled"
+        }
+      }
+    ]
+  },
+  "debuff_damage-for-debuff": {
+    "title": "+2 Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-debuff_damage2_enabled"
+        }
+      }
+    ]
+  },
+  "debuff_poisons-are-deadly": {
+    "title": "Poisons are Deadly",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "poison"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-debuff_poisons_enabled"
+        }
+      }
+    ]
+  },
+ 
+  "buff_duration": {
+    "title": "+20% Buff Duration",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "required_skills": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-buff_duration_enabled"
+        }
+      }
+    ]
+  },
+  "buff_strength": {
+    "title": "+1 Strength",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-buff_strength_enabled"
+        }
+      }
+    ]
+  },
+  "buff_chance-for-random-buff": {
+    "title": "+5% Chance for Random Buff",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-buff_chance_random_enabled"
+        }
+      }
+    ]
+  },
+  "buff_chance-not-waste-potion": {
+    "title": "+10% Chance not to Waste Potion",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-buff_chance_not_waste_potion_enabled"
+        }
+      }
+    ]
+  },
+  "buff_eat-sat-for-use-potion": {
+    "title": "+3 Food and 5 Saturation for Use Potion",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-buff_eat3_sat5_enabled"
+        }
+      }
+    ]
+  },
+  
+  "cooking_double1": {
+    "title": "5% Chance to Cook Double",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "required_skills": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-cooking_double1_enabled"
+        }
+      }
+    ]
+  },
+  "cooking_double2": {
+    "title": "10% Chance to Cook Double",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-cooking_double2_enabled"
+        }
+      }
+    ]
+  },
+  "cooking_double3": {
+    "title": "15% Chance to Cook Double",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-cooking_double3_enabled"
+        }
+      }
+    ]
+  },
+  "cooking_double4": {
+    "title": "20% Chance to Cook Double",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-cooking_double4_enabled"
+        }
+      }
+    ]
+  },
+  "cooking_save-ingridient": {
+    "title": "5% Chance To Save Ingredients",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-cooking_save_ingridient_enabled"
+        }
+      }
+    ]
+  },
+  
+  "uniq": {
+    "title": "Uniq",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "ars_nouveau:alchemists_crown"
+      }
+    },
+    "description": "Unlocks the Uniq skill.",
+    "required_skills": 5,
+    "required_exclusions": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_alchemist-uniq_enabled"
+        }
+      }
+    ]
+  },
+  
+  "engineer_craft-durability-tools": {
+    "title": "Durability Tools",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_engineer-craft_durability_tools_enabled"
+        }
+      }
+    ]
+  },
+  "engineer_craft-durability-armor": {
+    "title": "Durability Armor",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "absorption"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_engineer-craft_durability_armor_enabled"
+        }
+      }
+    ]
+  },
+  "engineer_craft-damage-weapons": {
+    "title": "Damage Weapons",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_engineer-craft_damage_weapons_enabled"
+        }
+      }
+    ]
+  },
+  "engineer_craft-looting": {
+    "title": "Looting",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_engineer-craft_looting_enabled"
+        }
+      }
+    ]
+  },
+  "engineer_craft-armor-toughness": {
+    "title": "Armor Toughness",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_engineer-craft_armor_toughness_enabled"
+        }
+      }
+    ]
+  },
+  "engineer_craft-random-enchants": {
+    "title": "Random Enchants",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_engineer-craft_random_enchants_enabled"
+        }
+      }
+    ]
+  },
+  
+  "engineer_tools-durability": {
+    "title": "Durability in hands will loss 30% slower",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_engineer-tools_durability_enabled"
+        }
+      }
+    ]
+  },
+  "engineer_tools-experience": {
+    "title": "Experience + 25%",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_engineer-tools_experience_enabled"
+        }
+      }
+    ]
+  },
+  "engineer_tools-haste-chance": {
+    "title": "Haste Chance",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "haste"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_engineer-tools_haste_chance_enabled"
+        }
+      }
+    ]
+  },
+  "engineer_tools-luck-chance": {
+    "title": "Luck Chance",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_engineer-tools_luck_chance_enabled"
+        }
+      }
+    ]
+  },
+  "engineer_tools-add-stella": {
+    "title": "Stella",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_engineer-tools_add_stella_enabled"
+        }
+      }
+    ]
+  },
+  
+  "engineer_upgrade-tools-base": {
+    "title": "Base Tools",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_engineer-upgrade_tools_base_enabled"
+        }
+      }
+    ]
+  },
+  "engineer_upgrade-luck": {
+    "title": "Везение +1",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_engineer-upgrade_luck_enabled"
+        }
+      }
+    ]
+  },
+  "engineer_upgrade-tools-ultima": {
+    "title": "Ultima Tools",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_engineer-upgrade_tools_ultima_enabled"
+        }
+      }
+    ]
+  },
+  
+  "engineer_uniq": {
+    "title": "uniq",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "extendedae:infinity_water_cell"
+      }
+    },
+    "required_skills": 5,
+    "required_exclusions": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_engineer-uniq_enabled"
+        }
+      }
+    ]
+  },
+  
+  "traveller_travel-speed": {
+    "title": "Travel Speed 25%",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "speed"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.25,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "traveller_travel-swim-speed": {
+    "title": "Swim Speed 25%",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "speed"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "neoforge:swim_speed",
+          "value": 0.25,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "traveller_travel-slow-effect-less": {
+    "title": "Slow Effect Less",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "slowness"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_traveller-travel_slow_effect_less_enabled"
+        }
+      }
+    ]
+  },
+  "traveller_travel-stamina-more": {
+    "title": "Stamina More",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "traveller_travel-golden-apple": {
+    "title": "Golden Apple",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_traveller-travel_golden_apple_enabled"
+        }
+      }
+    ]
+  },
+  
+  "traveller_hunter-luck": {
+    "title": "Hunter Luck",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_traveller-hunter_luck_enabled"
+        }
+      }
+    ]
+  },
+  "traveller_hunter-chance-double-loot": {
+    "title": "Chance Double Loot",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_traveller-hunter_chance_double_loot_enabled"
+        }
+      }
+    ]
+  },
+  "traveller_hunter-chance-luck": {
+    "title": "Chance Luck",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_traveller-hunter_chance_luck_enabled"
+        }
+      }
+    ]
+  },
+  "traveller_hunter-chance-double-loot-boss": {
+    "title": "Chance Double Loot Boss",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_traveller-hunter_chance_double_loot_boss_enabled"
+        }
+      }
+    ]
+  },
+  "traveller_hunter-boss-damage": {
+    "title": "Boss Damage +1",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_traveller-hunter_boss_damage_enabled"
+        }
+      }
+    ]
+  },
+  
+  "traveller_dungeon-luck": {
+    "title": "Dungeon Luck",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_traveller-dungeon_luck_enabled"
+        }
+      }
+    ]
+  },
+  "traveller_dungeon-chance-double-loot": {
+    "title": "Chance Double Loot",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_traveller-dungeon_chance_double_loot_enabled"
+        }
+      }
+    ]
+  },
+  "traveller_dungeon-can-create-struct-compas": {
+    "title": "Can Create Struct Compas",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_traveller-dungeon_can_create_struct_compas_enabled"
+        }
+      }
+    ]
+  },
+  
+  "traveller_aventure-luck1": {
+    "title": "Aventure Luck",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_traveller-aventure_luck1_enabled"
+        }
+      }
+    ]
+  },
+  "traveller_aventure-luck2": {
+    "title": "Aventure Luck",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_traveller-aventure_luck2_enabled"
+        }
+      }
+    ]
+  },
+  "traveller_aventure-luck3": {
+    "title": "Aventure Luck",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_traveller-aventure_luck3_enabled"
+        }
+      }
+    ]
+  },
+  "traveller_aventure-luck4": {
+    "title": "Aventure Luck",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_traveller-aventure_luck4_enabled"
+        }
+      }
+    ]
+  },
+  "traveller_aventure-luck5": {
+    "title": "Aventure Luck",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_traveller-aventure_luck5_enabled"
+        }
+      }
+    ]
+  },
+  
+  "traveller_uniq": {
+    "title": "uniq",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "waystones:waystone"
+      }
+    },
+    "description": "Unlocks the Uniq skill.",
+    "required_skills": 5,
+    "required_exclusions": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "af_traveller-uniq_enabled"
+        }
+      }
+    ]
+  }
+}

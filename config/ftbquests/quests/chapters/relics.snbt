@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "relics"
+	group: "28CB793A66EE6060"
+	icon: {
+		components: {
+			"ftbquests:icon": "relics:textures/gui/description/general/badges/relic/flawless_relic.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "19C3C502F2EB5BE5"
+	images: [{
+		height: 4.0d
+		image: "arcanefriction:textures/quests/reliquified_cataclysm_desc.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: 8.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "619511215817303A"
+		rewards: [{
+			id: "2850E077229817C5"
+			type: "xp"
+			xp: 10
+		}]
+		tasks: [{
+			id: "47CCD7F4A9205EDE"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

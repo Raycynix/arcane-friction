@@ -1,0 +1,10 @@
+{
+	"title": "Researchers",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "create:wrench"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/stone.png"
+}
