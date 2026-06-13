@@ -262,5 +262,45 @@
 			x: 3.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["5835D3E7CE350D97"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "09F3BA8DCC77A247"
+			optional: true
+			rewards: [
+				{
+					id: "687CB7B1FD216553"
+					item: {
+						count: 1
+						id: "enigmaticlegacyplus:unwitnessed_amulet"
+					}
+					type: "item"
+				}
+				{
+					id: "090F4D0A813126FE"
+					item: {
+						count: 1
+						id: "enigmaticlegacyplus:cursed_ring"
+					}
+					type: "item"
+				}
+				{
+					id: "209E854610EA2B14"
+					item: {
+						count: 1
+						id: "enigmaticlegacyplus:enchanted_astral_fruit"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B14C5B62FFEB88D"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
 	]
 }
