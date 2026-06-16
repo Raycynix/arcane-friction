@@ -1,0 +1,374 @@
+{
+	"2smjv7lzgh3mzoyj": {
+		"definition": "assassin_uniq",
+		"x": -527.9341947042856,
+		"y": -10.0532878000778,
+		"root": false
+	},
+	"vwfda3azf51cxdf7": {
+		"definition": "assassin_armor-heart-buff",
+		"x": -551.9341947042856,
+		"y": -51.62250718173084,
+		"root": true
+	},
+	"lhuv67guohtlgago": {
+		"definition": "assassin_dagger-armor-shred",
+		"x": -503.9341947042856,
+		"y": -51.62250718173084,
+		"root": true
+	},
+	"37op6l6i1po6qlpz": {
+		"definition": "assassin_poison-from-cauldron",
+		"x": -479.9341947042856,
+		"y": -10.0532878000778,
+		"root": true
+	},
+	"8woebsk7utx3h6bk": {
+		"definition": "assassin_bow-reload-speed",
+		"x": -503.93419470428535,
+		"y": 31.5159315815753,
+		"root": true
+	},
+	"fp0fpw3oxcidl8hs": {
+		"definition": "assassin_invis-buff-damage",
+		"x": -551.9341947042856,
+		"y": 31.5159315815753,
+		"root": true
+	},
+	"t7kgdghfh08biy13": {
+		"definition": "assassin_mobil-buff-speed",
+		"x": -575.9341947042856,
+		"y": -10.0532878000778,
+		"root": true
+	},
+	"1a2i3ac3fliotjmh": {
+		"definition": "assassin_mobil-buff-dodge",
+		"x": -671.9341947042856,
+		"y": -10.0532878000778,
+		"root": false
+	},
+	"dj2li38dod77mhpv": {
+		"definition": "assassin_mobil-buff-speed15",
+		"x": -767.9341947042856,
+		"y": -10.053287800077815,
+		"root": false
+	},
+	"2bs2bgv61zj1djnf": {
+		"definition": "assassin_mobil-buff-dodge2",
+		"x": -863.9341947042856,
+		"y": -10.053287800077829,
+		"root": false
+	},
+	"7sezklj5qe2cky95": {
+		"definition": "assassin_mobil-double-jump",
+		"x": -959.9341947042856,
+		"y": -10.053287800077829,
+		"root": false
+	},
+	"g3gj9gzjwxpy9q9w": {
+		"definition": "assassin_invis-buff-duration",
+		"x": -599.9341947042856,
+		"y": 114.65437034488147,
+		"root": false
+	},
+	"rb8msxag9l1t5txl": {
+		"definition": "assassin_invis-buff-damage2",
+		"x": -647.9341947042856,
+		"y": 197.79280910818736,
+		"root": false
+	},
+	"tkih62dgn7ly3voy": {
+		"definition": "assassin_invis-buff-duration2",
+		"x": -695.9341947042856,
+		"y": 280.9312478714936,
+		"root": false
+	},
+	"9baszk9xy0rxvxzb": {
+		"definition": "assassin_invis-shadowstep",
+		"x": -743.9341947042856,
+		"y": 364.0696866347997,
+		"root": false
+	},
+	"5ekkp8vv62yeqqq9": {
+		"definition": "assassin_bow-damage20",
+		"x": -460.0519437103769,
+		"y": 57.828963193830816,
+		"root": false
+	},
+	"6krc9o8rmwsdsaxh": {
+		"definition": "assassin_bow-damage10",
+		"x": -503.08756637444367,
+		"y": 82.67559152367284,
+		"root": false
+	},
+	"uefvoxtpujc6js3u": {
+		"definition": "assassin_bow-return_throw25",
+		"x": -417.62379489515274,
+		"y": 82.50812799478393,
+		"root": false
+	},
+	"nn9648upmho7x4xf": {
+		"definition": "assassin_bow-reload-speed2",
+		"x": -502.92885712024736,
+		"y": 131.7590286336802,
+		"root": false
+	},
+	"2e0pr52jm715wdb3": {
+		"definition": "assassin_bow-ranged_no_ammo15",
+		"x": -454.45897569018825,
+		"y": 167.3315824420892,
+		"root": false
+	},
+	"hd4yj3zgkyzwvz7t": {
+		"definition": "assassin_bow-damage25",
+		"x": -411.05200033461125,
+		"y": 142.27055353583938,
+		"root": false
+	},
+	"hwyh3ynv2f5m1gxu": {
+		"definition": "assassin_bow-damage20",
+		"x": -407.93419470428563,
+		"y": 197.79280910818747,
+		"root": false
+	},
+	"w3bps6yvfe3pn61c": {
+		"definition": "assassin_bow-ranged_armor_shred",
+		"x": -362.74418103518406,
+		"y": 225.86250095515183,
+		"root": false
+	},
+	"f4lr610oc355qs1w": {
+		"definition": "assassin_bow-armor_shred",
+		"x": -406.22013532296415,
+		"y": 250.96335486647737,
+		"root": false
+	},
+	"2u8qn8bz04v49ntv": {
+		"definition": "assassin_poison-duration-buff",
+		"x": -383.93419470428563,
+		"y": -10.0532878000778,
+		"root": false
+	},
+	"tkiw7vhjovw78o0e": {
+		"definition": "assassin_poison-weapon-buff",
+		"x": -287.9341947042856,
+		"y": -10.053287800077857,
+		"root": false
+	},
+	"nby22fgaq9wnkmcv": {
+		"definition": "assassin_poison-slowness-debuff",
+		"x": -191.93419470428557,
+		"y": -10.053287800077744,
+		"root": false
+	},
+	"2bqj1pr1f6cdrkbi": {
+		"definition": "assassin_poison-are-deadly",
+		"x": -95.93419470428557,
+		"y": -10.053287800077829,
+		"root": false
+	},
+	"niws42mack6zvtze": {
+		"definition": "assassin_dagger-crit-chance",
+		"x": -455.9341947042856,
+		"y": -134.76094594503692,
+		"root": false
+	},
+	"k5cug3650mqddwz4": {
+		"definition": "assassin_dagger-attack-speed",
+		"x": -407.93419470428563,
+		"y": -217.899384708343,
+		"root": false
+	},
+	"b06pt85n0hk9wc21": {
+		"definition": "assassin_dagger-crit-damage",
+		"x": -359.9341947042856,
+		"y": -301.0378234716492,
+		"root": false
+	},
+	"a4q37sy4rv8yzqml": {
+		"definition": "assassin_dagger-bleeding-on-crit",
+		"x": -311.9341947042856,
+		"y": -384.1762622349553,
+		"root": false
+	},
+	"1nbalkbigux6cre9": {
+		"definition": "assassin_armor-armor-buff",
+		"x": -599.9341947042856,
+		"y": -134.76094594503692,
+		"root": false
+	},
+	"52fygd9xbxp6mn29": {
+		"definition": "assassin_armor-thoughness-buff",
+		"x": -647.9341947042856,
+		"y": -217.899384708343,
+		"root": false
+	},
+	"odmq4g8ra093hs8i": {
+		"definition": "assassin_armor-immune-to-slowness",
+		"x": -695.9341947042856,
+		"y": -301.0378234716492,
+		"root": false
+	},
+	"lhb2v8taxo9nawfk": {
+		"definition": "assassin_armor-multi=buff",
+		"x": -743.9341947042856,
+		"y": -384.1762622349553,
+		"root": false
+	},
+	"j1yv2ispnczq8ocz": {
+		"definition": "warrior_uniq",
+		"x": 431.7368372722494,
+		"y": 15.076582575480412,
+		"root": false
+	},
+	"j5pekwhoou8immgx": {
+		"definition": "warrior_shield-knockback-resistance",
+		"x": 386.086124490082,
+		"y": 29.90939830547789,
+		"root": true
+	},
+	"7bhh4rb1xns3uggq": {
+		"definition": "warrior_sword-damage",
+		"x": 403.5231451622107,
+		"y": -23.75623315451706,
+		"root": true
+	},
+	"vh5a0ouallrpai3l": {
+		"definition": "warrior_berserk-axe-speed",
+		"x": 459.95052938228804,
+		"y": -23.75623315451706,
+		"root": true
+	},
+	"nzr3t9gt6fjbi6xe": {
+		"definition": "warrior_armor-negative-effects",
+		"x": 477.38755005441675,
+		"y": 29.90939830547789,
+		"root": true
+	},
+	"fdf8w3z9gai6w3hx": {
+		"definition": "warrior_main-health",
+		"x": 431.7368372722494,
+		"y": 63.076582575480415,
+		"root": true
+	},
+	"g0ztmoi6u54poype": {
+		"definition": "warrior_main-damage",
+		"x": 431.7368372722495,
+		"y": 159.07658257548042,
+		"root": false
+	},
+	"6kfqhn0wjf2ppsph": {
+		"definition": "warrior_main-projectile-protection",
+		"x": 431.7368372722494,
+		"y": 255.0765825754804,
+		"root": false
+	},
+	"2au6vo1ac4y0fdbf": {
+		"definition": "warrior_main-armor-durability",
+		"x": 431.7368372722494,
+		"y": 351.0765825754804,
+		"root": false
+	},
+	"qpji4q9ww4gfi9v7": {
+		"definition": "warrior_main-absorption-effect",
+		"x": 431.7368372722494,
+		"y": 447.0765825754804,
+		"root": false
+	},
+	"p949nrz3zr90g473": {
+		"definition": "warrior_armor-bonus",
+		"x": 568.6889756187516,
+		"y": 59.575029765472834,
+		"root": false
+	},
+	"ldl54cgvtnrig8mm": {
+		"definition": "warrior_armor-ignore-phys-damage",
+		"x": 659.9904011830863,
+		"y": 89.24066122546785,
+		"root": false
+	},
+	"8n9wq8inyr1olis9": {
+		"definition": "warrior_armor-bonuses-scale",
+		"x": 842.5932523117558,
+		"y": 148.57192414545773,
+		"root": false
+	},
+	"zji3yq4ngx8c1jch": {
+		"definition": "warrior_armor-bonus",
+		"x": 751.2918267474208,
+		"y": 118.90629268546272,
+		"root": false
+	},
+	"5qdokvsxu93bv41x": {
+		"definition": "warrior_berserk-damage-vampire-multi",
+		"x": 516.3779136023657,
+		"y": -101.42186461451203,
+		"root": false
+	},
+	"eshfcu2k1mvpywlx": {
+		"definition": "warrior_berserk-axe-damage",
+		"x": 572.805297822443,
+		"y": -179.087496074507,
+		"root": false
+	},
+	"82fagyrk7ldahloz": {
+		"definition": "warrior_berserk-hp-regen",
+		"x": 629.2326820425203,
+		"y": -256.75312753450197,
+		"root": false
+	},
+	"a0dkhk0sleo46rgb": {
+		"definition": "warrior_berserk-multi-damage-per-less-hp",
+		"x": 685.6600662625979,
+		"y": -334.4187589944969,
+		"root": false
+	},
+	"vxmv58i93vpajjpw": {
+		"definition": "warrior_sword-crit-chance",
+		"x": 347.09576094213315,
+		"y": -101.42186461451203,
+		"root": false
+	},
+	"vtxsd9f1q6uttapm": {
+		"definition": "warrior_sword-crit-damage",
+		"x": 290.6683767220558,
+		"y": -179.087496074507,
+		"root": false
+	},
+	"09kc8y8vw0zucpy6": {
+		"definition": "warrior_sword-attack-speed",
+		"x": 234.24099250197838,
+		"y": -256.75312753450197,
+		"root": false
+	},
+	"scnmjyral3fhjicl": {
+		"definition": "warrior_sword-splash-damage",
+		"x": 177.81360828190094,
+		"y": -334.4187589944969,
+		"root": false
+	},
+	"w6rconqko7gfal0n": {
+		"definition": "warrior_shield-armor-while-shield",
+		"x": 294.78469892574725,
+		"y": 59.575029765472806,
+		"root": false
+	},
+	"fpwn06utm25uwvfz": {
+		"definition": "warrior_shield-armor-while-shield",
+		"x": 203.4832733614125,
+		"y": 89.24066122546785,
+		"root": false
+	},
+	"umm1wqik6q3kqvsi": {
+		"definition": "warrior_shield-health-while-shield",
+		"x": 112.18184779707775,
+		"y": 118.90629268546272,
+		"root": false
+	},
+	"rf4lncveed3uh98e": {
+		"definition": "warrior_shield-turtle",
+		"x": 20.880422232743,
+		"y": 148.57192414545767,
+		"root": false
+	}
+}

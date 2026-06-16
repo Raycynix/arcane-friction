@@ -1,0 +1,306 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "start"
+	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: {
+		components: {
+			"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "14DC297A31C6F5A3"
+	images: [
+		{
+			click: "https://github.com/Raycynix"
+			dependency: "3C6E55AF7181932C"
+			height: 1.0d
+			hover: ["GitHub"]
+			image: "arcanefriction:textures/quests/github_logo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			click: "https://boosty.to/raycynix"
+			dependency: "3C6E55AF7181932C"
+			height: 1.0d
+			hover: ["Boosty"]
+			image: "arcanefriction:textures/quests/boosty_logo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			click: "https://patreon.com/Raycynix"
+			dependency: "3C6E55AF7181932C"
+			height: 1.0d
+			hover: ["Patreon"]
+			image: "arcanefriction:textures/quests/patreon_logo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			click: "https://discord.gg/zvhnVZmY2e"
+			dependency: "3C6E55AF7181932C"
+			height: 1.0d
+			hover: ["Discord"]
+			image: "arcanefriction:textures/quests/discord_logo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			click: "https://t.me/raycynix"
+			dependency: "3C6E55AF7181932C"
+			height: 1.0d
+			hover: ["Telegram"]
+			image: "arcanefriction:textures/quests/telegram-logo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 4.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			hide_dependency_lines: false
+			icon: {
+				components: {
+					"ftbquests:icon": "arcanefriction:textures/quests/raycynix_logo.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "5835D3E7CE350D97"
+			progression_mode: "linear"
+			rewards: [{
+				id: "73DB91D8764D6B2E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "none"
+			tasks: [{
+				id: "50A43EC16BE9B1C7"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5835D3E7CE350D97"]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			hide_until_deps_visible: false
+			icon: {
+				id: "minecraft:command_block"
+			}
+			icon_scale: 2.0d
+			id: "6A8B02EE9C35851B"
+			rewards: [{
+				id: "78601B8293CC49BC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4E36413AD0E7B35C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5835D3E7CE350D97"]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			id: "4338BD9191E8A1D9"
+			rewards: [{
+				id: "3C959F67DC47DDAB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "1A8B35E190235EB9"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5835D3E7CE350D97"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/teams.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "0031A6FD6EE44128"
+			optional: true
+			rewards: [{
+				id: "187953CAF5FA0D04"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "none"
+			tasks: [{
+				id: "6E564447594F4900"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5835D3E7CE350D97"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3C6E55AF7181932C"
+			optional: true
+			rewards: [{
+				id: "500A379D10C89E83"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "22FD0CBC22BDBF56"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5835D3E7CE350D97"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/map"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.75d
+			id: "6F696131C1BD6F2E"
+			rewards: [{
+				id: "2D13A94B5BB2427A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4911506E1B1C0B37"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5835D3E7CE350D97"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "1A7F8A7AB1B68CB0"
+			tasks: [{
+				id: "3202FE0FB6186476"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5835D3E7CE350D97"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			id: "08827BE23E415E73"
+			rewards: [{
+				id: "03C8D8E528A08D4F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1DBCC3214839BB51"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08827BE23E415E73"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "4B32FDD29BBCF1DB"
+			rewards: [{
+				id: "6E4C920774FB8ED3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4E577CE04CFDA18A"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5835D3E7CE350D97"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "09F3BA8DCC77A247"
+			optional: true
+			rewards: [
+				{
+					id: "687CB7B1FD216553"
+					item: {
+						count: 1
+						id: "enigmaticlegacyplus:unwitnessed_amulet"
+					}
+					type: "item"
+				}
+				{
+					id: "090F4D0A813126FE"
+					item: {
+						count: 1
+						id: "enigmaticlegacyplus:cursed_ring"
+					}
+					type: "item"
+				}
+				{
+					id: "209E854610EA2B14"
+					item: {
+						count: 1
+						id: "enigmaticlegacyplus:enchanted_astral_fruit"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B14C5B62FFEB88D"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+	]
+}

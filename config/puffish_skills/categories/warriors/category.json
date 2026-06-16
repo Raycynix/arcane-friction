@@ -1,0 +1,10 @@
+{
+	"title": "Warriors",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "allthemodium:unobtainium_helmet"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/stone.png"
+}

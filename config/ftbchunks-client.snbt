@@ -138,52 +138,13 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"aquaculture:brown_trout": false
-			"minecraft:pig": true
-			"aquaculture:capitaine": false
-			"ars_nouveau:drygmy": true
-			"minecraft:armadillo": true
-			"iceandfire:lightning_dragon": true
-			"ars_elemental:siren_entity": true
-			"aquaculture:synodontis": false
-			"aquaculture:gar": false
-			"yungscavebiomes:sand_snapper": true
-			"minecraft:rabbit": true
-			"aquaculture:rainbow_trout": false
-			"aquaculture:bluegill": false
-			"minecraft:iron_golem": true
-			"minecraft:camel": true
-			"aquaculture:minnow": false
-			"cataclysm:wadjet": true
-			"aquaculture:red_grouper": false
-			"minecraft:squid": true
-			"minecraft:glow_squid": true
-			"aquaculture:jellyfish": false
-			"minecraft:wolf": true
-			"minecraft:salmon": false
-			"minecraft:pufferfish": false
-			"aquaculture:tuna": false
-			"iceandfire:fire_dragon": true
-			"aquaculture:bayad": false
-			"ars_nouveau:whirlisprig": true
-			"aquaculture:boulti": false
-			"forbidden_arcanus:lost_soul": true
 			"ars_nouveau:starbuncle": true
-			"minecraft:hoglin": true
-			"aquaculture:carp": false
-			"minecraft:villager": true
-			"iceandfire:deathworm": true
-			"minecraft:chicken": true
+			"forbidden_arcanus:lost_soul": true
+			"minecraft:pig": true
 			"minecraft:horse": true
-			"minecraft:bat": true
-			"cataclysm:koboleton": true
 			"minecraft:sheep": true
-			"artifacts:mimic": true
-			"minecraft:dolphin": true
 			"minecraft:cow": true
-			"iceandfire:hippocampus": true
-			"block_factorys_bosses:sandworm": true
-			"minecraft:tropical_fish": false
+			"minecraft:chicken": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
@@ -297,7 +258,7 @@
 		# Automatically remove death waypoints if closer than this many blocks away (distance of 0 disables removal)
 		# Default: 0
 		# Range: 0 ~ 2147483647
-		death_waypoint_autoremove_distance: 0
+		death_waypoint_autoremove_distance: 10
 		
 		# Enables creation of death waypoints
 		# Default: true

@@ -29,6 +29,9 @@
             "value": false
         }
     },
+    "GuiSettings": {
+        "continuous_crafting_saved_value": false
+    },
     "LockedSlotsSettings": {
         "enable_lock_slots": {
             "value": false
